@@ -16,6 +16,7 @@ class SecondFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+        // Inflamos el layout al crear la vista
         _binding = FragmentSecondBinding.inflate(inflater, container, false)
         return binding.root
     }
